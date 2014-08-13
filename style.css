@@ -1,0 +1,147 @@
+body { 
+	background: #000000 url('images/bg/bg960x600.jpg') no-repeat fixed;
+	/* #000011 */
+}
+@font-face {
+ 	font-family: Times;
+  	src: url(Electrolize.ttf);
+}
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+#logo {
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+h1  {
+	color: #00FFFF;
+	font-size: 2em;
+	font-family: Times;
+	text-align: center;
+	}
+	
+.content {
+	float: left;
+	width: 100%;
+	margin: 0 0 2em auto;
+	}
+.content h1  {
+	color: #00FFFF;
+	font-size: 3em;
+	font-family: Times;
+	text-align: center;
+	}
+.content h2 {
+	border: 1px solid #00FFFF;
+	padding: 2em;
+	color: white;
+	font-size: 1.5em;
+	font-family: Times;
+	padding: .25em;
+	background-color: rgba(0, 71, 71, 0.5);
+}
+
+.content > a {
+	text-decoration: none;
+}
+.content h3 {
+	color: white;
+	font-size: 1.25em;
+	font-family: Times;
+	padding: .25em;
+}
+.content p{
+	font-family: Times;
+	color: #00FFFF;
+	line-height: 2em;
+	padding: 0 1.5em 1.5em 1.5em;
+	font-size: 1em;
+	}
+
+.content p.hide{
+	font-family: Times;
+	color: white;
+	font-size: 1em;
+	width: 80%;
+	text-align: right;
+	text-decoration: underline;
+	}
+	
+.content ul {
+	list-style: none;
+	padding: .25em;
+}
+.content li {
+	font-family: Times;
+	color:#00FFFF;
+	padding: .1em
+}
+.content a {
+	color:#00FFFF;
+}
+.content img.project{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+.content img.me {
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	}
+hr {
+	color:#00FFFF;
+	width: 75%;
+	}
+	
+/*BUTTON 1 TOGGLES*/
+	#button1 {
+		text-align: center;
+		width: 100%;
+		}
+	#button1info {
+		text-align: center;
+		width: 100%;
+		display: none;
+		background-color: rgba(0, 71, 71, 0.5);
+		}
+/*BUTTON 2 TOGGLES*/
+	#button2 {
+		text-align: center;
+		width: 100%;
+		}
+	#button2info {
+		text-align: center;
+		width: 100%;
+		display: none;
+		background-color: rgba(0, 71, 71, 0.5);
+		}
+	
+/* BUTTON 3 TOGGLES*/
+	#button3 {
+		text-align: center;
+		width: 100%;
+		}
+	#button3info {
+		text-align: center;
+		width: 100%;
+		display: none;
+		background-color: rgba(0, 71, 71, 0.5);
+		}
+
+@media screen and (min-width:1024px){
+		#wrapper {
+			width: 75%;
+		}
+	
+}
+		
+@media screen and (min-width:1440px){
+		/*insert changes */
+	}
+		

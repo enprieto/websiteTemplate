@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Website</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		
+		<!-- Favicon and homescreen icons -->
+			<link rel="shortcut icon" href="apple-touch-icon.png" />
+			<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+		<!-- meta -->
+		<meta content="initial-scale:1.0, width=device-width" name="viewport" />
+		<meta charset="utf-8" />
+		<meta name="keywords" content=""  />
+		<meta name="author" content="">
+		<meta name="description" content="" />
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script>
+			
+			//Main slide toggle buttons
+			$(document).ready(function(){
+  				$("#button1").click(function(){
+   				 	$("#button1info").slideToggle("1500");
+  					});
+  				$("#button2").click(function(){
+   				 	$("#button2info").slideToggle("1500");
+  					});
+  				$("#button3").click(function(){
+   				 	$("#button3info").slideToggle("1500");
+  					});
+				});
+ 
+  				
+  					
+  			//hide buttons at bottom of each section, slide up
+				$(document).ready(function(){
+  				$("#button1hide").click(function(){
+   				 	$("#button1info").slideUp("1500");
+  					});
+  				$("#button2hide").click(function(){
+   				 	$("#button2info").slideUp("1500");
+  					});
+  				$("#button3hide").click(function(){
+   				 	$("#button3info").slideUp("1500");
+  					});
+				});
+		</script>
+		
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+				<h1>My Website</h1>
+				<!-- or logo
+				<img src="" id="logo" alt="" />
+				<script>$('#logo').hide().fadeIn(1500);</script>
+				-->
+			<div class="content">
+				
+		
+		<!-- BUTTON 1 -->
+				<span style="cursor:crosshair">
+					<div id="button1">
+						<h2>Button 1</h2>
+					</div>
+				</span>
+				<div id="button1info">
+					<h3>Field 1</h3>
+					<p>Duis dui tellus, volutpat id pellentesque sollicitudin, bibendum sit amet mauris. Ut fringilla ac orci at tempor. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet leo arcu. Aenean congue metus id eros 
+					suscipit tristique. Nulla facilisi. Ut et lobortis tortor, placerat iaculis justo. Fusce vehicula, lacus non 
+					dictum viverra, dui orci dapibus est, at consectetur elit massa in dolor. Praesent velit dui, consectetur non 
+					commodo eu, dapibus at ipsum. Integer pellentesque erat ut elit vehicula convallis. Suspendisse vitae ullamcorper diam.</p>
+				</div>
+				
+		<!-- BUTTON 2 -->
+				<span style="cursor:crosshair">
+					<div id="button2">
+						<h2>Button 2</h2>
+					</div>
+				</span>
+				<div id="button2info">
+					<h3>Field 2</h3>
+					<p>Duis dui tellus, volutpat id pellentesque sollicitudin, bibendum sit amet mauris. Ut fringilla ac orci at tempor. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet leo arcu. Aenean congue metus id eros 
+					suscipit tristique. Nulla facilisi. Ut et lobortis tortor, placerat iaculis justo. Fusce vehicula, lacus non 
+					dictum viverra, dui orci dapibus est, at consectetur elit massa in dolor. Praesent velit dui, consectetur non 
+					commodo eu, dapibus at ipsum. Integer pellentesque erat ut elit vehicula convallis. Suspendisse vitae ullamcorper diam.</p>
+				</div>
+				
+		<!-- BUTTON 3 -->
+				<span style="cursor:crosshair">
+					<div id="button3">
+						<h2>Button 3</h2>
+					</div>
+				</span>
+				<div id="button3info">
+					<h3>Field 3</h3>
+					<p>Duis dui tellus, volutpat id pellentesque sollicitudin, bibendum sit amet mauris. Ut fringilla ac orci at tempor. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet leo arcu. Aenean congue metus id eros 
+					suscipit tristique. Nulla facilisi. Ut et lobortis tortor, placerat iaculis justo. Fusce vehicula, lacus non 
+					dictum viverra, dui orci dapibus est, at consectetur elit massa in dolor. Praesent velit dui, consectetur non 
+					commodo eu, dapibus at ipsum. Integer pellentesque erat ut elit vehicula convallis. Suspendisse vitae ullamcorper diam.</p>
+				</div>
+	
+
+			</div><!-- content -->
+		</div><!-- wrapper --></body>
+</html>
